@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
-function App() {
+function RootApp() {
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
@@ -13,4 +13,4 @@ function App() {
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<RootApp />, rootElement);
